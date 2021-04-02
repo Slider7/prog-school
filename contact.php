@@ -1,14 +1,14 @@
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-        # FIX: Replace this email with recipient email
-        $mail_to = "kemalsh771@gmail.com";
+    # FIX: Replace this email with recipient email
+    $mail_to = "kemalsh771@gmail.com";
 		$host = $_SERVER['HTTP_HOST'];
 		$header = "Content-type: text/html\n";
 		$header .= "From: <noreply@$host>\n";
 			
         # Sender Data
-        $subject = "Сообщение от посетителя сайта $host";
+        $subject = "Сообщение от посетителя сайта prog-school $host";
         $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
         $email = "noreply@$host";
 		/*filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);*/

@@ -90,7 +90,7 @@ nav{
 }
 
 .jumbotron {
-  background: url("../img/diamond1.jpg") no-repeat center center fixed; 
+  background: url("../img/laptop.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -111,22 +111,22 @@ nav{
 
 .about-text{
   font-family: 'Merriweather', sans-serif;
-  color: #bf953f;
-  text-shadow: 0 2px 1px #663300;
+  color: royalblue/*#bf953f*/;
+  text-shadow: 0 2px 1px navy/*#663300*/;
 }
 
 .about-text-p{
   font-family: 'Merriweather', sans-serif;
   text-align: justify;
-  color: #663300;
+  color: navy/*#663300*/;
 }
 
 .card-header{
-  background-color: #bf953f;
+  background-color: dodgerblue /*#bf953f*/;
 }
 
 .btn-brown{
-  background-color: #663300;
+  background-color: navy/*#663300*/;
   color: #fff; 
 }
 
@@ -144,27 +144,24 @@ nav{
 .rules-ol{
   font-family: 'Merriweather', sans-serif;
   text-align: justify;
-  color: #663300;
+  color: navy;
 }
 
 #a-rules a:hover{
-  color: #663300;
+  color: navy;
 }
 
-.zaim-img{
-  width: 70%; 
-}
-.zaim-img80{
-  width: 80%; 
+.img80{
+  width: 90%;
 }
 
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23663300' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230000CD' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
   width: 50px;
 }
 
 .carousel-control-next-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23663300' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230000CD' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
  width: 50px;
 }
 
@@ -173,11 +170,8 @@ nav{
     width:100%;
     left:0 !important;
     top:79% !important;
-    color: #663300;
-    text-shadow: 0 2px 2px #fff;
-    text-shadow: 0 -2px 2px #fff;
-    text-shadow: 2px 0px 2px #fff;
-    text-shadow: -2px 0px 2px #fff;
+    color: royalblue;
+    text-shadow: -2px 0px 1px blue;
     z-index: 99;
 }
 
@@ -185,4 +179,10 @@ nav{
   text-align: center;
   font-weight: bold;
   font-size: 1.0rem;
+}
+
+iframe{
+    overflow: hidden;
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
 }
